@@ -18,7 +18,6 @@ import mws
 Voila! The package is imported from this folder instead of site-packages. Verify as below:
 ```python
 $ flask shell
-import mws
-mws.__file__
-'/Users/mitaleemulpuru/Documents/Projects/mwsedit/mws0.8.3/python-amazon-mws-0.8.3/mws/__init__.py'
+>>> import mws
+>>> mws.__file__
 ```
