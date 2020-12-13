@@ -12,8 +12,6 @@ mkdir mwseditable
 cd mwseditable    <- paste the downloaded code here (in tar.gz format)
 tar xvzf python-amazon-mws-0.8.3.tar.gz   <- this will unzip the downloaded code
 pip install -e python-amazon-mws-0.8.3    <- install in editable mode
-flask shell
-import mws
 ```
 Voila! The package is imported from this folder instead of site-packages. Verify as below:
 ```python
